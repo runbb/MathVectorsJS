@@ -1,0 +1,10 @@
+"use strict";
+exports.__esModule = true;
+var vectors_1 = require("./vectors");
+var v = new vectors_1.vector(-4, 2);
+var u = new vectors_1.vector(3, -5);
+var mathing = new vectors_1.vectorMath(v, u);
+console.log(mathing.multiplication());
+console.log(mathing.addition());
+console.log(mathing.subtraction());
+console.log(mathing.find());
